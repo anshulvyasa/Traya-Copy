@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+html, body, #root {
+  height: 100%;
+}
+
+body {
+  background-image: url('./assets/stagesimg/bg.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed; /* keep image fixed while content scrolls */
+}
+
+
